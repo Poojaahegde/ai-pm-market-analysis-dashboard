@@ -13,6 +13,7 @@ from typing import List
 @dataclass
 class ProductIdea:
     name: str
+# Clarify commit message
     market_size: float
     growth_rate: float
     competition: float
